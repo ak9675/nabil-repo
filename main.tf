@@ -3,12 +3,12 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "tfrg"
+  name     = "tfrg2"
   location = "eastus"
 }
 
 resource "azurerm_resource_group" "example1" {
-  name     = "tfrg1"
+  name     = "tfrg3"
   location = "westus"
 }
 
